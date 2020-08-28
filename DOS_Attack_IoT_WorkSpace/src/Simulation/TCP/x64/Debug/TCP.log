@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Congestion.c
+  CUBIC.c
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\CUBIC.c(27,1): warning C4005: 'HZ': macro redefinition
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\Include\PropagationModel.h(27): message : see previous definition of 'HZ'
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\CUBIC.c(228,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DelayedAck.c
+  RTO.c
+  SACK.c
+  SYN_flood.c
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\SYN_flood.c(55,23): warning C4013: 'socket_creation' undefined; assuming extern returning int
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\SYN_flood.c(55,25): warning C4047: '=': 'PNETSIM_SOCKET' differs in levels of indirection from 'int'
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\SYN_flood.c(121,18): warning C4047: 'return': 'int' differs in levels of indirection from 'PNETSIM_SOCKET'
+  TCB.c
+  TCP.c
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\TCP.c(19,39): warning C4028: formal parameter 1 different from declaration
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\TCP.c(98,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\TCP.c(211,12): warning C4013: 'syn_flood' undefined; assuming extern returning int
+C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\TCP.c(296,26): warning C4013: 'add_plot_data_formatted' undefined; assuming extern returning int
+  TCP_ApplicationInterface.c
+  TCP_Connection.c
+  TCP_Enum.c
+  TCP_Incoming.c
+  TCP_NetworkInterface.c
+  TCP_Outgoing.c
+  TCP_Packet.c
+  TCP_Socket.c
+  TCP_Test.c
+  WindowScale.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1316,5): warning MSB8012: TargetPath(C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\..\..\..\bin\bin_x64\TCP.dll) does not match the Linker's OutputFile property value (C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\bin\bin_x64\libTCP.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1318,5): warning MSB8012: TargetName(TCP) does not match the Linker's OutputFile property value (libTCP). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Congestion.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  TCP.lib(TCPLib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+Congestion.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\lib_x64\libTCP.lib and object ..\lib_x64\libTCP.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+TCP.lib(TCPLib.obj) : warning LNK4099: PDB 'TCPLib.pdb' was not found with 'TCP.lib(TCPLib.obj)' or at 'C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\bin\bin_x64\TCPLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\bin\bin_x64\List.pdb'; linking object as if no debug info
+  TCP.vcxproj -> C:\Users\Hanuman\Desktop\R & D\DOS_Attack_in_IoT_v12.2\DOS_Attack_IoT_WorkSpace\src\Simulation\TCP\..\..\..\bin\bin_x64\TCP.dll
